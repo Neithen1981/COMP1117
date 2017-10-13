@@ -1,7 +1,8 @@
-#include<iostream>
+#include <iostream>
+#include <cmath>
 using namespace std;
 
-int pow(int a, int b, int r, int x, int y);
+int check(int a, int b, int r, int x, int y);
 
 int main(){
 	int a, b, r;
@@ -12,7 +13,7 @@ int main(){
 	cout << "Please input a point:" << endl;
 	cin >> x >> y;
 
-	bool on = pow(a, b, r, x, y);
+	bool on = check(a, b, r, x, y);
 	if (on)
 		cout << "The point is on the circumference" << endl;
 	else
@@ -21,9 +22,9 @@ int main(){
 	return 0;
 }
 
-int pow(int a, int b, int r, int x, int y){
-	int check = (x - a) * (x - a) + (y - b) * (y - b);
-	if (check == r*r)
+int check(int a, int b, int r, int x, int y){
+	int check = pow(x - a, 2) + pow(y - b, 2);
+	if (check == pow(r, 2))
 		return 1;
 	else
 		return 0;
