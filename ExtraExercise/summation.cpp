@@ -1,3 +1,36 @@
+//So now I understand how silly I was...
+//The suggested solution is presented below:
+
+/*
+int main()
+{
+	int n;
+
+	cin >> n; 
+
+	while (n >= 10)
+	{
+		
+		int m = 0;
+
+		while (n > 0)
+		{
+			m += n % 10;
+			n /= 10;
+		}
+
+		n = m;
+
+        cout << n << ' ';
+	}
+
+	cout << endl;
+
+	return 0;
+}
+*/
+
+//Original solution:
 #include <iostream>
 using namespace std;
 
@@ -63,3 +96,4 @@ int check(int n[], int l){
 //In fact there is no need to use dynamic array here,
 //because I use int to store the input.
 //Anyway, it makes the code tighter and more transportable.
+
