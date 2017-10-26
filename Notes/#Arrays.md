@@ -29,3 +29,17 @@ first index: row; second index: column
 int socre_2D[3][4] = {{1,2,3,4}, {5,6,7,8},{9,10,11,12}}
 ```
 the first dimension can be left blank when passing, while the second dimention have to be specified
+
+## Array Index Out of Range
+compiler asks OS to allocate memory for variables  **stack**
+```
+int i = 0;
+char a[] = {'a', 'b'};
+
+cout << i << endl;
+a[2] = 'c'; a[3] = 'd';
+cout << i <<endl;
+```
+In stack: bottom to up
+
+In one chunk: up to bottom
