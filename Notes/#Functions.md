@@ -35,6 +35,7 @@ int equal(int x, int y){
 **once return, the function terminate**
 ### No return
 void
+
 can have no return value or no return statement
 
 ## Scopes of Variables
@@ -48,9 +49,12 @@ if (){
 }
 ```
 *variables in the inner block will hide the outer variable with identical names*
+
 ### Global Variables
 declare outside any functions
+
 globally accessible
+
 ### Call by Value
 values are copied to local variables
 ```
@@ -61,8 +65,10 @@ void swap(int x, int y){
 }
 //outside the function, x and y will not change
 ```
+
 ### Call by Reference
 allow the function to modify the arguments
+
 "go to" the memory address
 ```
 void swap(int& x, int& y){

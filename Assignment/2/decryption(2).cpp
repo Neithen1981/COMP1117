@@ -56,6 +56,8 @@ int main(){
 	double number2 = int_2 + manipulate(deci_2);
 
 	cout << number1 + number2 <<endl;
+
+	return 0;
 }
 
 

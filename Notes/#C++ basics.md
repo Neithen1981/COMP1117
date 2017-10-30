@@ -48,6 +48,7 @@ used to store data, referred to by its identifier, change data by the assignment
 
 ### Variables declaration
 declare before use
+
 avoid uninitialized variables
 ```
 int width = 5;
@@ -55,11 +56,12 @@ char c = 'Y';
 double length = 1.5e3;
 //variable_type identifier = initial value;
 ```
+
 #### Variable types
 Name|Description|Range
 :------:|:-----------------------------:|:------:|
 char|character or small integer|
-bool|
+bool|true/false|
 int|integers|
 double|double precision floating number|
 #### Variable name
@@ -112,7 +114,9 @@ cout<<++d;//give 1(after the increment)
 **precedence**
 ### Type conversion
 When an operator has operands of different types, they are converted to a common type according to a small number of rules.
+
 In general, the only automatic conversions are those that convert a “narrower” operand into a “wider” one without losing information. E.g., from an int value to a double value will not lose information.
+
 ### Char type
 [ASCII](https://www.ascii-code.com/)
 ```
@@ -125,10 +129,13 @@ cout<<a;//give B
 ## Basic I/O
 ### Standard Output
 << insertion operator
+
 \n newline character
+
 [Escape Sequences](http://en.cppreference.com/w/cpp/language/escape)
 ### Standard Input
 ">>" extraction operator
+
 process only after the RETURN key has been pressed
 ```
 int v;
