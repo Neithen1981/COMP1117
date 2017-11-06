@@ -1,0 +1,6 @@
+Jean	73
+John	67
+Kate	99
+Nancy	80
+Bob	91
+Erik	96
