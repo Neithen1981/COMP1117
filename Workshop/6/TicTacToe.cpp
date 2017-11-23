@@ -3,7 +3,6 @@ using namespace std;
 
 void draw_board(int b[3][3]);
 int check(int b[3][3]);
-void deal(int s);
 
 
 
@@ -67,13 +66,4 @@ int check(int b[3][3]){
 	if (b[2][0] == b[1][1] && b[1][1] == b[0][2])
 		return b[2][0];
 	return 0;
-}
-
-void deal(int s){
-	if (s == 0)
-		return;
-	if (s == 1)
-		cout << "Player 1 is the winner!" << endl;
-	if (s == 2)
-		cout << "Player 2 is the winner!" << endl;
 }

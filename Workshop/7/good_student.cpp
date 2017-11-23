@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
 	avg = double(sum/i);
 
 	ofstream good_stream;
-	good_stream.open("good2.txt");
+	good_stream.open("good.txt");
 
 	for (int j = 0; j <= i; j ++){
 		if (score[j] > avg)
