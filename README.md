@@ -1,10 +1,5 @@
-# COMP1117
+# Computer Programming
 
-The worst notes and code ever for perhaps the most difficult course to enroll in HKU.
+The course is finally over and I have to thanks two Dalao for helping me with C++. One of them is LGY who is a year 2 CS student in HKU and is now serving as a research assitant of Dr. G. Cui on Operating Systems. The other is @wwpokenet, my beloved boy who always supports and inspires me to work hard.
 
-(With the course code starting with 1, cheers...)
-
-(Welcome to HKU. Wonder where our tuition goes...)
-
-
-I will update my lecture notes, practices and assignments(after due date) here.
+See you next semester in *Programming Tools* and *Data Structures and Algorithms*!
